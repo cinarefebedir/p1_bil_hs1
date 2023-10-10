@@ -1,1 +1,1 @@
-#dosya paylaşımı buradan yapılacak gençler
+print('hello world')
