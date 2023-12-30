@@ -205,26 +205,258 @@
 #     toplam += 3
 
 # print(f"Toplam Ödeme = {toplam}")
-print("Sevgi Hesaplayıcıya HG")
-isim1 = input("Adınız?")
-isim2 = input("Onun adı?")
+# print("Sevgi Hesaplayıcıya HG")
+# isim1 = input("Adınız?")
+# isim2 = input("Onun adı?")
 
-isimler = (isim1 + isim2 ). lower()
-g = isimler.count("g")
-e = isimler.count("e")
-r = isimler.count("r")
-ç = isimler.count("ç")
-e = isimler.count("e")
-k = isimler.count("k")
-a = isimler.count("a")
-ş = isimler.count("ş")
-k = isimler.count("k")
+# isimler = (isim1 + isim2 ). lower()
+# g = isimler.count("g")
+# e = isimler.count("e")
+# r = isimler.count("r")
+# ç = isimler.count("ç")
+# e = isimler.count("e")
+# k = isimler.count("k")
+# a = isimler.count("a")
+# ş = isimler.count("ş")
+# k = isimler.count("k")
 
-toplam = g + e + r + ç + e + k + a + ş + k
+# toplam = g + e + r + ç + e + k + a + ş + k
 
-if(toplam < 10 and toplam > 90):
-    print(f"Sevgi puanınız: {toplam}, kola mentos gibisiniz")
-elif(toplam > 40 and toplam < 50):
-    print(f"Sevgi Puanınız: {toplam}, beraber iyisiniz!")
-else:
-    print(f"Sevgi Puanınız: {toplam}")
+# if(toplam < 10 and toplam > 90):
+#     print(f"Sevgi puanınız: {toplam}, kola mentos gibisiniz")
+# elif(toplam > 40 and toplam < 50):
+#     print(f"Sevgi Puanınız: {toplam}, beraber iyisiniz!")
+# else:
+#     print(f"Sevgi Puanınız: {toplam}")
+# yas = int(input("Kaç yaşındasın"))
+# if yas >= 18:
+#     saglik = input("Sağlıklı mısın e veya h =>")
+#     if saglik == "e":
+#         print("Ehliyet Alabilirsin")
+#     else:
+#         print("Üzgünüm, ehliyet alamazsın")
+# else:
+#     print("üzgünüm, ehliyet alamazsın")
+# sifre = "17621"
+# print("Kopernik Bankasına Hoş geldiniz")
+# sifreGirilen = input("Lütfen şifrenizi giriniz")
+# if len(sifreGirilen) != 5:
+#     print("eksik ya da fazla tuşladınız")
+# elif sifre == sifreGirilen:
+#     print("Hoş geldiniz")
+# else:
+#     print("Yanlış tuşladınız")
+#  boy = float(input("Boyunuzu m cinsinden giriniz"))
+#  kilo = int(input("Kilonuzu kg cinsinden giriniz"))
+
+#  idealKilo = math.floor(22*boy*boy)
+#  fark = abs(idealKilo-kilo)
+#  if idealKilo > kilo:
+#     print(f"{fark} kilo almalısınız)
+#  else:
+#     print(f"{fark} kilo vermelisiniz)
+# sayi2 = int(input("2 inci Sayıyı giriniz"))
+# sayi3 = int(input("3 inci Sayıyı giriniz"))
+# sayi4 = int(input("4 inci Sayıyı giriniz"))
+# sayi5 = int(input("5 inci Sayıyı giriniz"))
+# enBuyuk = sayi1
+
+# if enBuyuk < sayi2:
+#     enBuyuk = sayi2
+# if enBuyuk < sayi3:
+#     enBuyuk = sayi3
+# if enBuyuk < sayi4:
+#     enBuyuk = sayi4
+# if enBuyuk < sayi5:
+#     enBuyuk = sayi5
+
+# print(f"Girilen sayılardan en büyüğü = {enBuyuk}")
+# import random 
+
+
+# randomSayi = random.randint(1,3)
+# cevap = int(input("Taş (1), Kağıt (2) Makas (3) Seçiniz"))
+# sehirler  = [
+# "Adana","Adıyaman","Afyonkarahisar","Ağrı","Aksaray","Amasya","Ankara","Antalya","Ardahan","Artvin","Aydın","Balıkesir","Bartın","Batman",
+# "Bayburt","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale","Çankırı","Çorum","Denizli","Diyarbakır","Düzce","Edirne","Elazığ",
+# "Erzincan","Erzurum","Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Iğdır","Isparta","İstanbul","İzmir","Kahramanmaraş","Karabük",
+# "Karaman","Kars","Kastamonu","Kayseri","Kilis","Kırıkkale","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya",
+# "Malatya","Manisa","Mardin","Mersin","Muğla","Muş","Nevşehir","Niğde","Ordu","Osmaniye","Rize","Sakarya","Samsun","Şanlıurfa",
+# "Siirt","Sinop","Şırnak","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Uşak","Van","Yalova","Yozgat","Zonguldak"
+# ]
+# print(sehirler[0])
+# print(sehirler.index("Adana"))
+# print(sehirler[12])
+# print(sehirler[80])
+# print(sehirler[-1])
+# print(sehirler[-2])
+# sehirler[33] = "İçel"
+# print(sehirler[33])
+
+# sehirler.append("Tarsus")
+# print(sehirler[81])
+# print(len(sehirler))
+# sehirler.remove("Tarsus")
+# print(len(sehirler))
+# sehirler.pop()
+# print(len(sehirler))
+# row1 = ['⬜️', '⬜️, '⬜️']
+# row2 = ['⬜️', '⬜️, '⬜️']
+# row3 = ['⬜️', '⬜️, '⬜️']
+# harita = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}\n")
+
+# pozisyon = input("hazineyi nereye koymak istersinn?\n")
+
+# yatay = int(pozisyon[0]) -1
+# dikey = int(pozisyon[1]) -1
+# harita [dikey][yatay] = "x"
+# print(f"{row1}\n{row2}\n{row3}\n")
+# import random
+# taş = '''
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)
+# '''
+
+# kağıt =  '''
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# '''
+
+# makas = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# '''
+# while True:
+#     kullaniciSecimi = int(input("Taş(0), Kağıt(1), Makas(2) seç"))
+#     bilgisayarSecimi = random.randint(0,2)
+
+#     print("Senin Seçimin")
+#     if kullaniciSecimi == 0:
+#         print(taş)
+#     elif kullaniciSecimi ==1:
+#         print(makas)
+
+#     print("Bilgisayarın Seçimi")
+#     if bilgisayarSecimi == 0:
+#         print(taş)
+#     elif bilgisayarSecimi == 1:
+#         print(makas)
+
+#     if kullaniciSecimi >=3 or kullaniciSecimi < 0:
+#         print("0 , 1, veya 2 giriniz")
+#     elif kullaniciSecimi == 0 and bilgisayarSecimi == 2:
+#         print("Yendin")
+#     elif bilgisayarSecimi == 0 and kullaniciSecimi ==2:
+#         print("Kaybettin")
+#     else:
+#         print("Berabere")
+# meyveler = ["Elma", "Armut", "Şeftali"]
+# for meyve in meyveler:
+#     print(meyve)
+# sehirler  = [
+# "Adana","Adıyaman","Afyonkarahisar","Ağrı","Aksaray","Amasya","Ankara","Antalya","Ardahan","Artvin","Aydın","Balıkesir","Bartın","Batman",
+# "Bayburt","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale","Çankırı","Çorum","Denizli","Diyarbakır","Düzce","Edirne","Elazığ",
+# "Erzincan","Erzurum","Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Iğdır","Isparta","İstanbul","İzmir","Kahramanmaraş","Karabük",
+# "Karaman","Kars","Kastamonu","Kayseri","Kilis","Kırıkkale","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya",
+# "Malatya","Manisa","Mardin","Mersin","Muğla","Muş","Nevşehir","Niğde","Ordu","Osmaniye","Rize","Sakarya","Samsun","Şanlıurfa",
+# "Siirt","Sinop","Şırnak","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Uşak","Van","Yalova","Yozgat","Zonguldak"
+# ]
+# for sehir in sehirler:
+#     print(sehir)
+
+# for sehir in sehirler:
+#     if sehir.lower().startswith("a"):
+#         print(sehir)
+# for sayi in range(0,100):
+#     if (sayi%3) == 0 and (sayi%5)==0:
+#         print(sayi)
+# girilenSayi = int(input("Bir sayı giriniz"))
+
+# carpim = 1
+
+# for sayi in range(1, girilenSayi+1):
+#     carpim *= sayi
+
+# print(f"Girdiğin sayının faktöriyeli : {carpim}")
+# while True:
+#     print("\n")
+# print("Merhaba")
+# for sayi in range(0,50):
+#     if (sayi%2) == 0 and (sayi%3)==0:
+#         print(sayi)
+# boylar = input("Öğrenci boylarına cm cinsinden aralarında boşluk bırakarak giriniz")
+# boyDizisi = boylar.split(" ")
+# toplam = 0
+# for boy in boyDizisi:
+#     toplam += int(boy)
+
+# print(f"Grilien boyların ortalaması : {toplam / len{boyDizisi}}")
+# puanlar = input("Öğrenci puanlarını arada boşluk bırakarak giriniz")
+# enYuksekpuan = int(puanlar[0])
+# for puan in puanlar.split(" "):
+#     if enYuksekpuan < int(puan):
+#         enYuksekpuan = int(puan)
+
+# print(f"En yüksek puan : {enYuksekpuan}")
+# print(f"En küçük puan : {min(puanlar.split(' '))}")
+# toplam = 0
+# for sayi in range(2,101):
+#     toplam += sayi
+# print(toplam)
+
+# toplam2 = 0
+# for sayi in range(2,101):
+#     if sayi % 2 ==0:
+#         toplam2 += sayi
+# print(toplam2)
+# for sayi in range(0, 100):
+#     if sayi % 3 == 0 and sayi % 5 == 0:
+#         print("güçgeç")
+#     elif sayi % 3 ==0:
+#        print("geç")
+#     else:
+#        print(sayi)
+# import random
+# harfler = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+# rakamlar = ['0','1','2','3','4','5','6','7','8','9']
+# semboller = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+# print("Şifre oluşturucuya hoş geldiniz")
+# harfSayisi = int(input("Şifrenizde kaç harf olsun?\n"))
+# rakamSayisi = int(input(f"Şifrenizde kaç rakam olsun?\n"))
+# sembolSayisi = int(input(f"şifrenizde kaç sembol olsun\n"))
+
+# sifre = []
+# for char in range (1, harfSayisi + 1):
+#     sifre.append(random.choice(harfler))
+
+# for char in range(1, sembolSayisi + 1):
+#     sifre += random.choice(semboller)
+
+# for char in range(1, rakamSayisi + 1):
+#     sifre += random.choice(rakamlar)
+
+# random.shuffle(sifre) 
+
+# sifreYeni = ""
+# for char in sifre:
+#     sifreYeni += char
+
+# print(f"Şifreniz : {sifreYeni}")
+# def fonksiyonum():
+#     print("Merhaba")
+#     print("Dünya")
+# fonksiyonum()
